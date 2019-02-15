@@ -16,5 +16,19 @@ body {
   height: 300px;
   width: 300px;
   margin: 0;
-  background: radial-gradient(circle at 100px 100px, #5cabff, #000);
+  background: radial-gradient(circle at 100px 100px, #0000FF, #00FFFF);
+  box-shadow: 0 0 20vw #00FFFF
+}
+.gradient {
+  background-image:
+    radial-gradient(
+      circle closest-side,
+      yellow,
+      #f06d06
+    );}
+#zen-intro {
+	background: black;
+	color: blue;
+	padding: 1em;
+	margin-top: : 400px;
 }
